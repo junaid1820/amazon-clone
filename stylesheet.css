@@ -17,7 +17,7 @@
 
 }
 .logo  {
-    background-image: url("/logo.png");
+    background-image: url("logo.png");
     background-size: cover;
     height: 100%;
     width: 100%;
@@ -134,7 +134,7 @@ span{
 /* HERO SECTION */
 /* The bg image wont visible in div until and unless we give the hight */
 .hero-section{
-    background-image: url("/hero_image.jpg");
+    background-image: url("hero_image.jpg");
     background-size: cover;
     height:300px;
     display: flex;
@@ -234,7 +234,7 @@ ul a{
     align-items: center;
 }
 .logo2{
-    background-image: url("/logo.png");
+    background-image: url("logo.png");
     background-size: cover;
     height: 70px;
     width: 200px;
