@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box; 
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav-logo {
+    height: 50px;
+    width: 150px;
+
+}
+.logo  {
+    background-image: url("/logo.png");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    
+}
+/* to get the border when ever we hoever */
+.border{
+    border: 1px solid transparent;
+}
+
+.border:hover {
+    border: 1px solid white;
+}
+
+/* BOX_2 */
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+
+}
+.add-sec{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+/* BOX_3 */
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: orange;
+    width: 600px;
+    height: 40px;
+    border-radius: 4px;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px; /* set only top left and bottom left */
+    border: none;/* set the border to none  */
+    
+}
+.search-input{
+    width: 100%; /* if we set 100% then it automatically takes full width */
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex; /*to make the icon to center*/
+    justify-content: center; 
+    align-items: center; /*this will set item to center in verically*/
+    font-size: 1.5rem; /*size of the icon*/
+    border-top-right-radius:4px;
+    border-bottom-right-radius:4px;
+    color: #0f1111;
+
+
+}
+
+.nav-search:hover{
+    border: 2px solid orange;
+}
+/* BOX_4 */
+span{
+    font-size: 0.7rem;
+}
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* Box-6 */
+.nav-cart i{
+    font-size: 30px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* PANEL */
+
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.panel-options p {
+    display: inline; /*this gives all the paragraph tags in panel-option in single line the syntax is imp to apply all at once (panel-options p)*/
+    margin-left: 15px;
+}
+
+.panel-options{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+
+/* HERO SECTION */
+/* The bg image wont visible in div until and unless we give the hight */
+.hero-section{
+    background-image: url("/hero_image.jpg");
+    background-size: cover;
+    height:300px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-message{
+    background-color: white;
+    color: #0f1111;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 80%;  
+    margin-bottom: 25px; /*this is to set the white box*/
+
+}
+
+.hero-message a{
+    color: #007185;
+    text-decoration: none;
+
+}
+
+/* SHOP-SECTION */
+
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #222f3d;
+}
+
+.box{
+    /* border: 2px solid black; */
+    height: 330px;
+    width:21%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin: 15px;
+    
+}
+.box-img{
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-content p{
+    color: #007185;
+    margin-top: 1rem;
+
+}
+
+/* footer */
+footer{
+    margin-top: 10px;
+}
+.foot-panel1{
+    background-color:#37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+}
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul{
+    margin-top: 20px;
+}
+ul a{
+    display: block;
+    font: size 0.85em; 
+    margin-top:10px;
+    color:#dddddd;
+}
+.foot-panel3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo2{
+    background-image: url("/logo.png");
+    background-size: cover;
+    height: 70px;
+    width: 200px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
+}
+.foot-panel4{
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+    text-align: center;
+    font-size: 0.7rem;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.pages{
+   
+    padding-top:25px;
+}
+.copyright{
+    padding-top:5px;
+}
+
+
